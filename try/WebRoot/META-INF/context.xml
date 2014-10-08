@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/dbtom" docBase="dbtom" reloadable="true"
+	crossContext="true">
+
+	<Resource name="jdbc/dbtom" auth="Container" type="javax.sql.DataSource"
+		maxActive="100" maxIdle="30" maxWait="10000" username="4ox1zooymw" password="j21yj1zwhy5wzywil2km44l3yxyw0y35lhjkzyhy"
+		driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3307/lab2" />
+
+</Context>

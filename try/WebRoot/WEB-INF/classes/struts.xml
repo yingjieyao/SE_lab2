@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+    <include file="struts-default.xml" />
+    <constant name="struts.locale" value="zh_CN" />
+    <constant name="struts.i18n.encoding" value="GBK" />
+    <constant name="struts.action.excludePattern" value="/*.jsp"></constant>
+    <constant name="struts.devMode" value="false" />
+    <package name="jdbc" namespace="/" extends="struts-default">
+
+        <action name="delete" class="action.BookAction" method="delBook">
+            <result name="SUCCESS">/success.jsp</result>
+            <result name="ERROR">/error.jsp</result>
+        </action>
+        
+        <action name="queryau" class="action.BookAction" method="QueryAu">
+            <result name="SUCCESS">/page.jsp</result>
+            <result name="ERROR">/error.jsp</result>
+        </action>
+        
+        <action name="all" class="action.BookAction" method="All">
+            <result name="SUCCESS">/page.jsp</result>
+            <result name="ERROR">/error.jsp</result>
+        </action>
+
+        <action name="querytit" class="action.BookAction" method="QueryTit">
+            <result name="SUCCESS">/page2.jsp</result>
+            <result name="ERROR">/error.jsp</result>
+        </action>
+    </package>
+</struts>    
