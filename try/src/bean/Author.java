@@ -8,8 +8,8 @@ public class Author {
 	public void print(){
 		System.out.println(Authorid+" "+Name+" "+Age+" "+Country);
 	}
-	public void setAuthorid(int a){
-		this.Authorid=a;
+	public void setAuthorid(int Authorid){
+		this.Authorid=Authorid;
 	}
 	public void setName(String a){
 		this.Name=a;

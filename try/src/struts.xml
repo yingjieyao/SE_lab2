@@ -30,3 +30,5 @@
         </action>
     </package>
 </struts>    
+
+<!-- this is some change of the struts.xml-->
