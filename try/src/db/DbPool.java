@@ -3,7 +3,7 @@ import java.sql.*;
 
 import javax.naming.*;
 import javax.sql.DataSource;
-//this is another change for R5
+
 public class DbPool {
 	private Connection conne;
 	public Connection getConne(){
