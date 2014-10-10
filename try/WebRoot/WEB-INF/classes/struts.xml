@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
-
+<!--this is just a little change for R3-->
 <struts>
     <include file="struts-default.xml" />
     <constant name="struts.locale" value="zh_CN" />
@@ -30,3 +30,5 @@
         </action>
     </package>
 </struts>    
+
+<!-- this is some change of the struts.xml-->
